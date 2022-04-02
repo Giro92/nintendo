@@ -1,5 +1,7 @@
 .container-news{
 display: grid;
+margin-left: 25%;
+margin-right: 25%;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: auto auto auto;
 gap: 10px;

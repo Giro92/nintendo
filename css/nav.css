@@ -166,7 +166,6 @@ nav{
 .drop-down-search{
     height: max-content;
     position: absolute;
-    background-color: #fff;
     top: 52px;
     left: 0;
     right: 0;
@@ -181,7 +180,9 @@ nav{
     display: flex;
     justify-content: start;
     align-items: stretch;
-    width: 90vw;
+    width: 100%;
+    background-color: #fff;
+    padding: 0 5%;
     padding-bottom: 50px;
 }
 
@@ -395,7 +396,7 @@ nav{
     display: none;
 }
 
-#menuMyNintendoStore:hover > #dropdownMenuContainer, #menuMyNintendoStore:hover * #dropMyNintendoStore, #menuGames:hover > #dropdownMenuContainer, #menuGames:hover * #dropGames, #menuNintendoSwitch:hover > #dropdownMenuContainer, #menuNintendoSwitch:hover * #dropNintendoSwitch, #menuPlayNintendo:hover > #dropdownMenuContainer, #menuPlayNintendo:hover * #dropPlayNintendo{
+#menuMyNintendoStore:hover > #dropdownMenuContainer, #menuMyNintendoStore:hover * #dropMyNintendoStore,#menuGames:hover > #dropdownMenuContainer, #menuGames:hover * #dropGames, #menuNintendoSwitch:hover > #dropdownMenuContainer, #menuNintendoSwitch:hover * #dropNintendoSwitch, #menuPlayNintendo:hover > #dropdownMenuContainer, #menuPlayNintendo:hover * #dropPlayNintendo{
     display: flex;
     z-index: 2;
 }
@@ -622,4 +623,5 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    padding: 10px 0px;
 }

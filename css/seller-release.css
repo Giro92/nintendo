@@ -1,71 +1,65 @@
 * {
     box-sizing: border-box;
+}
+/*  CONTENITORE GENERALE */
 
-}
-.h2-container-seller {
+.container-seller-digital {
     display: flex;
-    align-items: center;
-}
-div.h2-container-seller a {
-    text-decoration: none;
-    color: red;
-    border-bottom: 2px solid red;
-    margin-left: 1rem;
-}
-.h2-seller-releases {
-    border-right: 1px solid rgb(218, 218, 218);
-    text-align: initial;
-    padding-right: 1rem;
-}
-div.card-text-seller-releases h3 {
-    color: initial;
-}
-div.card-text-seller-releases a {
-    text-decoration: none;
-}
-.price-seller {
-    padding-top: 6rem;
-    color: rgb(72, 72, 72);
-}
-.nintendo-switch-card {
-    padding-top: 1rem;
-}
-div.nintendo-switch-card span{
-    border-bottom: 2px solid red;
-    font-weight: initial;
-}
-.img_seller-releases {
-    overflow: hidden;
+    justify-content: space-evenly;
+    margin: 0 4rem;
     font-weight: 700;
 }
-.img_seller-releases img {
+/*  CONTENITORE CARD */
+
+.card-box-seller-digital {
+    border: 1px solid silver;
+    border-radius: 4px;
+    padding-bottom: 1rem;
+
+    max-width: 260px;
+    min-height: 350px;
+    height: 350px;
     width: 260px;
-    height: 146.25px;
+
+    box-sizing: content-box;
 }
-.box_seller-releases {
-    margin: 6rem;
-    align-items: flex-end;
-    cursor: pointer;
+
+.card-box-seller-digital img {
+    width: 260px;
 }
-.box_seller-releases > div {
-    display: flex;
-        
-}
-.box_seller-releases a:hover {
-        color: red;
-}
-.card-seller-releases {
+
+/*  STILE E POSIZIONE TESTO CARD */
+
+.style-text-card {
+    margin: 10px;
     display: block;
-    border-top: none;
-    margin: 1em;
+    flex-direction: column;
+    height: 100%;
 }
-.card-text-seller-releases {
-    font-size: 1rem;
-    margin: 1rem;
+.style-text-card-seller h3 {
+    font-size: 0.9rem;
+}
+.style-padding-price-seller {
+    color: rgb(72, 72, 72);
     
 }
-.border-card-sellers {
-    border: 1px solid silver;
-    border-top: none;
-
+.style-padding-ninswitch-seller {
+    font-weight: initial;
+    padding-top: 1rem;
 }
+.style-padding-ninswitch span {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+/*      ----LINK-----      */
+
+.container-seller-digital a {
+    text-decoration: none;
+    color: initial;
+}
+.container-seller-digital h3:hover {
+    color: red;
+}
+
+
+

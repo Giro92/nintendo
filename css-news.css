@@ -11,6 +11,7 @@ background-color: rgb(255, 255, 255);
 .card-news{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .title-news{
@@ -38,9 +39,10 @@ a.article-news{
     text-decoration: none;
 }
 
-p.read-more-news{
+.read-more-news{
     color: red;
     text-decoration: underline;
+    height: 10%;
 }
 
 .img-news:hover{

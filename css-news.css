@@ -1,3 +1,4 @@
+/* start news css */
 .main-container-news{
     display: grid;
     margin-left: 10%;
@@ -138,3 +139,5 @@ a.article-news{
         flex-direction: column;
     }
 }
+
+/* end news css */

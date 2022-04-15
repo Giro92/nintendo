@@ -1,4 +1,18 @@
 /* start news css */
+
+hr.hr-news{
+    width: 100%;
+    border-width: 0.0625rem 0px 0px;
+    border-bottom-style: initial;
+    border-bottom-color: initial;
+    border-left-style: initial;
+    border-left-color: initial;
+    border-right-style: initial;
+    border-right-color: initial;
+    border-top-style: solid;
+    border-top-color: rgb(218, 218, 218);
+}
+
 .main-container-news{
     display: grid;
     margin-left: 10%;

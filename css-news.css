@@ -1,11 +1,11 @@
 .container-news{
-display: grid;
-margin-left: 10%;
-margin-right: 10%;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: auto auto auto auto;
-gap: 10px;
-background-color: rgb(255, 255, 255);
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 .card-news{
@@ -31,6 +31,7 @@ background-color: rgb(255, 255, 255);
 
 .img-news{
     width: 100%;
+    border-radius: 5%;
 }
 
 a.article-news{
@@ -48,20 +49,31 @@ a.article-news{
 
 .content-article-news{
     display: -webkit-box; 
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical; 
     overflow:hidden; 
-    height: calc(8em); 
+    height: calc(6); 
 } 
 
-
 .read-more-news{
+    font-weight: bold;
     color: red;
     text-decoration: underline;
     height: 10%;
 }
 
-.img-news:hover{
+/* per applicare effetti di :hover quando si passa sull'articolo */
+.card-news:hover .img-news{
     transition: 200ms;
     opacity: 0.5;
+}
+
+.card-news:hover .title-article-news{
+    transition: 200ms;
+    color: red;
+}
+
+.card-news:hover .read-more-news{
+    transition: 200ms;
+    color: darkred;
 }

@@ -84,11 +84,12 @@ a.article-news{
     transition: 200ms;
     color: darkred;
 }
+/* per applicare effetti di :hover quando si passa sull'articolo */
 
 .see-all-news{
     grid-row: 3/4;
-    /* height: 48px;
-    width: 215px; */
+    height: 50px;
+    width: 200px;
 }
 
 .see-all-news a{
@@ -105,6 +106,8 @@ a.article-news{
     flex-direction: row;
     background-color: rgb(230, 0, 18);
     padding: 5px;
+    height: 100%;
+    width: 100%;
     border-radius: 0.25rem;
     text-decoration: none;
     transition:  0.2s;
@@ -116,12 +119,16 @@ a.article-news{
     opacity: 0.5;
 }
 
+.see-all-news svg{
+    padding-right: 10px;
+}
+
 
 
 @media only screen and (max-width: 850px)
 {
     .see-all-news{
-        grid-column: 1/5;
+        
         width: 100%;
         height: 100%;
     }
@@ -129,9 +136,5 @@ a.article-news{
     .container-news{
         display: flex;
         flex-direction: column;
-        margin-left: 10%;
-        margin-right: 10%;
-        gap: 10px;
-        background-color: rgb(255, 255, 255);
     }
 }

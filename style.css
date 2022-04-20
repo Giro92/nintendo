@@ -1,0 +1,37 @@
+.characters{
+    flex-direction: row;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
+.icon{
+    flex-direction: column;
+    display: flex;
+    margin: 16px;
+    margin-bottom: 10px;
+}
+
+figcaption, h2{
+    color: #1a1919;
+    font-weight:900;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 5px;
+}
+
+h2{
+    margin-left: 160px;
+    font-size: 28px;
+}
+
+#space{
+    height: 100px;
+}
+
+img:hover{
+    cursor: pointer;
+    zoom: 105%;
+    max-width: 260px;
+
+}

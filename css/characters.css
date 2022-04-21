@@ -28,7 +28,7 @@
     height: 100px;
 }
 
-img:hover{
+.img-chara:hover{
     cursor: pointer;
     zoom: 105%;
 }

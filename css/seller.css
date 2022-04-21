@@ -3,12 +3,6 @@
 * {
     box-sizing: border-box;
 }
-html {
-    font-size: 16px;
-}
-body {
-    font-weight: 700;
-}
 /*      CONTENITORE SEZIONE      */
 
 .Container-seller-releases {
@@ -50,6 +44,8 @@ align-items: initial;
     margin-right: 16px;
     padding-right: 16px;
     font-size: 32px;
+    margin-left: 35px;
+
 }
 .testata-top-seller-release a {
     color: rgb(172, 0, 13);
@@ -62,6 +58,7 @@ align-items: initial;
     font-size: 36px;
     display: inline-flex;
     color: rgb(72, 72, 72);
+    margin-left: 35px;
 }
 
 /*     -----------  STYLE CARD    ------------  */

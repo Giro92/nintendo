@@ -426,7 +426,7 @@ button:hover{
     }
 } 
 
-.container{
+.banner-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -434,9 +434,12 @@ button:hover{
     width: 400px;
     
 }
+.banner-container button{
+    font-family: "museo-sans";
+}
 
 .nintendo-title{
-    font-family: 'Work Sans', 'sans-serif' ;
+    font-family: "museo-sans";
     font-weight: bold;
     font-size: 28px;
     color: rgb(73, 73, 73);
@@ -453,10 +456,37 @@ button:hover{
     font-size: 13px;
     margin: 0 0 0 8px;
 }
-.wrapper{
+.banner-wrapper{
     display: flex;
     justify-content: space-between;
-
     margin: 70px 2% 0;
 
+}
+
+@media screen and (min-width:1500px) {
+    .banner-wrapper{
+        margin: 120px 2% 0 ;
+    }
+    .featured {
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (min-width:1550px) {
+    .banner-wrapper{
+        margin: 150px 2% 0 ;
+    }
+    .featured{
+        margin-top: 180px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .banner-wrapper{
+        margin: 200px 2% 0 ;
+    }
+    .featured{
+        margin-top: 250px;
+    }
 }

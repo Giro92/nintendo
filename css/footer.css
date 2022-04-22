@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.footerUL{
+    list-style: none;
+}
+.footerLogo{
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 0, 18);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 185px;
+    padding-right: 200px;
+}
+.footerGeneralLogo{
+    color: white;
+}
+.footer-logos2{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    }
+.Footer-Grid{
+    display: flex;
+    height: 200px;
+    margin-top: 30px;
+    row-gap: 50px;
+    column-gap: 80px;
+    flex-flow: wrap;
+    margin-bottom: 150px;
+    margin-left: -40px;
+}
+.Footer-Container{
+    display: flex;
+    justify-content: center;
+
+}
+.logo-privacy{
+    position: relative;
+    top: 260px;
+    right: 45px;
+    width: 50px;
+    height: 70px;
+}
+.footer-end{
+     display: flex;
+     background-color: rgb(51, 49, 49);
+     color: rgb(253, 253, 253);
+     width: 100vw;
+     justify-content: center;
+     align-items: center;
+     height: 120px;
+     font-size: 12.5px;  
+ }
+.footer-end2{
+     display: flex;
+     align-items: center;
+    justify-content: space-around;
+    width: 750px;
+    padding-left: 130px;
+
+ }
+
+.America-flag{
+     display: flex;
+     width: 200px;
+     align-items: center;
+ }
+ .America-flag2{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+ }
+
+ .Footer-LinkList7{
+    grid-column:5/6;
+    grid-row:2/3;
+ }
+ .Footer-LinkList2{
+       padding: 0 0 0 24px ;
+       border-left: 2px solid rgb(191, 189, 189);
+       
+ }
+ .footerEndContainer{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .footerElements2{
+     color: white;
+     text-decoration: none;
+ }
+ .footerElements2:hover{
+     text-decoration: underline;
+ }
+
+ .footerLink-style2{
+     color: rgb(230, 0, 18);
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .footerLink-style2:hover{
+    text-decoration: underline; 
+    color: rgb(126, 3, 14);
+ }
+ .footerLink-style1{
+     font-weight: bold;
+     color: rgba(19, 18, 18, 0.662);
+     text-decoration: none;
+ }
+ .footerLink-style1:hover{
+    text-decoration: underline; 
+ }
+ .Footer-LinkList6{
+     height: 105px;
+ }
+ .footerLI{
+     height: 30px;
+ }
+ .Footer-LinkList7{
+height: 120px;
+ }
